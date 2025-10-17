@@ -1,0 +1,52 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content */
+.main-content {
+  flex-grow: 1; /* Allow main content to take remaining space */
+  overflow-y: auto; /* Enable vertical scrolling for main content */
+  padding: 20px;
+  margin-left: 300px;
+
+}
+
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #ff1a1a;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #ffe6e6;
+}
+
+/* Buttons */
+button, .btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #333;
+}
